@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/styles/lading-page.css"/>
+    <link rel="stylesheet" href="/styles/video-player.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+    <title>4Hands - Assistir anime online.</title>
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <div class="nav">
+          <div class="dropdown">
+            <i class="material-icons dropdown-toggle" data-toggle="dropdown">
+              menu
+            </i>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/">Anime</a>
+              </li>
+              <li>
+                <a href="/cadastro">Cadastrar anime</a>
+              </li>
+              <li>
+                <a href="/cadastro/anime">Cadastrar episodio</a>
+              </li>
+            </ul>
+          </div>
+          <a href="/" class="logo">
+            <img src="https://i.imgur.com/hmbDF6C.png" alt="4Hands"/>
+          </a>
+        </div>
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Buscar animes"/>
+            <button type="submit">
+              <i class="material-icons">
+                search
+              </i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="anime-index">
+        <div class="player-template">
+          <div class="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{episode.link_episode}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+          </div>
+
+          <h2>{{anime.nm_anime}}</h2>
+        </div>
+      </div>
+      <div class="feature-index">
+        <h3>DESTAQUES</h3>
+        <div class="item">
+          <i class="rank">1</i>
+          <img src="https://goyabu.com/capas/the-promised-neverland-2nd-season-episodios-online.jpg" alt=""/>
+          <div class="info">
+            <a href="">Yakusoku no Neverland 2nd Season</a>
+            <p>Eps. 5</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">2</i>
+          <img src="https://goyabu.com/capas/mushoku-tensei-jobless-reincarnation-episodios-online.jpg" alt=""/>
+          <div class="info">
+            <a href="">Mushoku Tensei: Isekai Ittara Honki Dasu</a>
+            <p>Eps. 5</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">3</i>
+          <img src="https://goyabu.com/capas/one-piece-episodios.jpg" alt=""/>
+          <div class="info">
+            <a href="">One Piece</a>
+            <p>Eps. 975</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">4</i>
+          <img src="https://goyabu.com/capas/the-promised-neverland-2nd-season-episodios-online.jpg" alt=""/>
+          <div class="info">
+            <a href="">Yakusoku no Neverland 2nd Season</a>
+            <p>Eps. 5</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">5</i>
+          <img src="https://goyabu.com/capas/naruto-shippuuden-episodios.jpg" alt=""/>
+          <div class="info">
+            <a href="">Naruto Shippuden</a>
+            <p>Eps. 510</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">6</i>
+          <img src="https://goyabu.com/capas/bleach-episodios.jpg" alt=""/>
+          <div class="info">
+            <a href="">Bleach</a>
+            <p>Eps. 363</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">7</i>
+          <img src="https://goyabu.com/capas/durarara-episodios.jpg" alt=""/>
+          <div class="info">
+            <a href="">Durarara!!</a>
+            <p>Eps. 24</p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="rank">8</i>
+          <img src="https://goyabu.com/capas/trigun-episodios.jpg" alt=""/>
+          <div class="info">
+            <a href="">Trigun</a>
+            <p>Eps. 26</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

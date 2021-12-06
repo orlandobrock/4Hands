@@ -1,0 +1,147 @@
+.anime-utils-info {
+  background: #1c1c1c;
+}
+.anime__updated {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.anime-capa {
+  width: 210px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  margin-top: -150px;
+  margin-left: 10px;
+}
+
+.anime-capa img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.text__updated {
+  margin-left: 20px;
+  padding-right: 230px;
+}
+
+.anime-titulo h1 {
+  margin: 10px 0 10px 0;
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.text__updated div i {
+  margin-right: 3px;
+}
+.text__updated div i,
+.text__updated div {
+  position: relative;
+  top: 2px;
+  font-size: 14px;
+  color: white;
+  font-weight: 200;
+}
+
+.anime-abstract {
+  margin-top: 20px;
+}
+
+.abstract {
+  padding: 20px;
+  border-top: 1px solid #212121;
+  color: white;
+}
+
+.disponible-episodes {
+  padding-bottom: 20px;
+  background: #1c1c1c;
+  margin-top: 20px;
+  display: block;
+  width: auto;
+}
+
+.item-anime {
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 144px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.container-animes {
+  margin-left: 22px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item-anime a .thumb {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.item-anime .corte {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.item-anime img {
+  width: 100%;
+}
+
+.item-anime h3 {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #bebebe;
+}
+
+.timer {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color: #fafafa;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.95;
+  vertical-align: top;
+  zoom: 1;
+  display: block;
+  border-radius: 4px;
+  background: #1c1c1c;
+}
